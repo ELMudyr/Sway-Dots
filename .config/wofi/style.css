@@ -1,0 +1,35 @@
+@import "/home/elmudyr/.cache/wal/colors-waybar.css";
+ 
+window {
+	background: @background; 
+	border-radius: 15px;
+}
+* {
+	color: @foreground; 
+	font-weight: 500;
+}
+
+#input {
+	border: none; 
+	border-radius: 0; 
+	background: transparent; 
+	padding: 10px;
+	box-shadow:none;
+}
+
+/* Hide backspace icon */
+.right {
+  color: transparent;
+}
+
+
+#clock {
+	font-size: 2em;
+}
+
+#entry:selected {
+    background-color: @color1;
+    font-weight:900;
+}
+#img {margin-right: 10px;}
+#entry {padding: 5px 10px;}

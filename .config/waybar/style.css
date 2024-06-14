@@ -1,0 +1,123 @@
+/* Import pywal colors */
+@import url("file:///home/elmudyr/.cache/wal/colors-waybar.css");
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+@keyframes blink_red {
+  to {
+    background-color: @color9;
+    color: @color0;
+  }
+}
+.warning, .critical, .urgent {
+  animation-name: blink_red;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+window#waybar {
+  background-color: transparent;
+}
+window > box {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: @color0;
+}
+#workspaces {
+  padding-left: 0px;
+  padding-right: 4px;
+}
+#workspaces button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+#workspaces button.focused {
+  background-color: @color6;
+  color: @color0;
+}
+#workspaces button.urgent {
+  color: @color0;
+}
+#workspaces button:hover {
+  background-color: @color11;
+  color: @color0;
+}
+tooltip {
+  background: @color8;
+}
+tooltip label {
+  color: @color15;
+}
+#custom-launcher {
+  padding-left: 8px;
+  padding-right: 6px;
+  color: @color14;
+}
+#mode, #clock, #memory, #temperature, #cpu, #mpd, #idle_inhibitor, #backlight, #pulseaudio, #network, #battery, #custom-powermenu, #custom-cava-internal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#memory {
+  color: @color6;
+}
+#cpu {
+  color: @color12;
+}
+#clock {
+  color: @color15;
+}
+#idle_inhibitor {
+  color: @color13;
+}
+#temperature {
+  color: @color10;
+}
+#backlight {
+  color: @color11;
+}
+#pulseaudio {
+  color: @color7;
+}
+#network {
+  color: @color2;
+}
+
+#network.disconnected {
+  color: @color15;
+}
+#battery.charging, #battery.full, #battery.discharging {
+  color: @color3;
+}
+#battery.critical:not(.charging) {
+  color: @color9;
+}
+#custom-powermenu {
+  color: @color9;
+}
+#tray {
+  padding-right: 8px;
+  padding-left: 10px;
+}
+#mpd.paused {
+  color: @color8;
+  font-style: italic;
+}
+#mpd.stopped {
+  background: transparent;
+}
+#mpd {
+  color: @color15;
+}
+#custom-cava-internal {
+  font-family: "Hack Nerd Font";
+}
+

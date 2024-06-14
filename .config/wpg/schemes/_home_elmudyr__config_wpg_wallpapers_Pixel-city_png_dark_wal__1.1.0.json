@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/elmudyr/.config/wpg/wallpapers/Pixel-city.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1e1b1d",
+        "foreground": "#9eabb8",
+        "cursor": "#9eabb8"
+    },
+    "colors": {
+        "color0": "#1e1b1d",
+        "color1": "#555B6B",
+        "color2": "#675864",
+        "color3": "#6C646B",
+        "color4": "#85533E",
+        "color5": "#83534E",
+        "color6": "#856464",
+        "color7": "#9eabb8",
+        "color8": "#6e7780",
+        "color9": "#555B6B",
+        "color10": "#675864",
+        "color11": "#6C646B",
+        "color12": "#85533E",
+        "color13": "#83534E",
+        "color14": "#856464",
+        "color15": "#9eabb8"
+    }
+}

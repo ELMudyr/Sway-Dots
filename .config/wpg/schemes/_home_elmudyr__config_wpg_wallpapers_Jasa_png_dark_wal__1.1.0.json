@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/elmudyr/.config/wpg/wallpapers/Jasa.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121212",
+        "foreground": "#fffdfe",
+        "cursor": "#fffdfe"
+    },
+    "colors": {
+        "color0": "#121212",
+        "color1": "#E83834",
+        "color2": "#D23532",
+        "color3": "#DA5A5D",
+        "color4": "#B38285",
+        "color5": "#E2A3A6",
+        "color6": "#9F9F9F",
+        "color7": "#e2dfe0",
+        "color8": "#2b2b2b",
+        "color9": "#ff3731",
+        "color10": "#ff3430",
+        "color11": "#ff6065",
+        "color12": "#fc949b",
+        "color13": "#ffbac0",
+        "color14": "#e3baba",
+        "color15": "#fffdfe"
+    }
+}

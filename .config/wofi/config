@@ -1,0 +1,6 @@
+mode=drun
+allow_images=true
+width=25%
+insensitive=true
+term=kitty
+hide_scroll=true
